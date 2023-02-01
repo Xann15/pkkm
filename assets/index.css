@@ -1,0 +1,122 @@
+:root {
+    --base-color: #3AA629;
+    --font-color: #088357;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px!important;
+    height: 4px!important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(225,225,225);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(200,200,200);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body { background-color: var(--base-color) }
+
+.cta {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px 30px;
+}
+
+.cta i { font-size: 39px; }
+
+.cta a { text-decoration: none; }
+
+.input { color: var(--base-color); border-radius: 25px; }
+.input { color: var(--base-color); }
+
+input[placeholder] {
+    font-size: 18px;
+    font-weight: 800;
+    font-family: roboto;
+}
+
+.form-control { background-color: var(--base-color); border-radius: 25px; height: 55px; }
+
+.form-login .form-label, .btn-login, .bottom-title, .bottom-title a { color: var(--font-color); font-weight: 800; font-size: 24px; font-family: roboto; }
+
+.btn-login { color: var(--base-color); width: 169px; border-radius: 30px; font-family: playfair display; font-size: 20px; transition: 0.7s ease;  }
+
+.btn-login:hover { color: black; }
+
+.bottom-title {  color: #fff; font-size: 18px; font-weight: 400; }
+
+.bottom-title a { font-size: 18px; }
+
+
+
+
+.info p { 
+    font-size: 18px;
+    font-family: dm sans;
+    color: var(--font-color);
+}
+
+.info .num, .saldo {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: dm sans;
+}
+
+.saldo { font-size: 16px; }
+
+.carousel-inner {
+    height: auto;
+    border-radius: 30px;
+}
+
+.picture img {
+    width: 45px;
+    height: 45px;
+}
+
+.card img {
+    width: 100px;
+}
+
+.card-group {
+    background-color: #E8FCE5;
+    border-radius: 30px;
+}
+
+.card-group a {
+    text-decoration: none;
+}
+
+.pictures img {
+    width: 65px;
+    height: 65px;
+}
+
+
+@media(max-width:430px) {
+    .picture img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .info p { font-size: 14px }
+
+    .carousel-inner { border-radius: 25px }
+}
